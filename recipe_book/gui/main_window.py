@@ -1,0 +1,58 @@
+import tkinter as tk
+from tkinter import ttk
+from data import recipe_manager
+
+
+def create_main_window():
+    """Főablak létrehozása és elindítása."""
+    window = tk.Tk()
+    window.title("Digitális Receptkönyv")
+    window.geometry("900x600")
+
+
+    #Bal panel
+    left_frame = tk.Frame(window, width=300)
+    left_frame.pack(side="left", fill="both", padx=10, pady=10)
+
+    #Keresőmező
+    search_var = tk.StringVar()
+    search_entry = tk.Entry(left_frame, textvariable=search_var)
+    search_entry.pack(fill="x", pady=5)
+
+    #Kategória szűrő
+    categories = ["mind", "leves", "főétel", "köret", "desszert", "ital", "egyéb"]
+    category_var = tk.StringVar(value="mind")
+    category_menu = ttk.Combobox(left_frame, textvariable=category_var,values=categories, state="readonly")
+    category_menu.pack(fill="x", pady=5)
+
+    #Receptlista
+    recipe_listbox = tk.Listbox(left_frame)
+    recipe_listbox.pack(fill="both", expand=True, pady=5)
+
+    #Gombok
+    add_button = tk.Button(left_frame, text="Recept hozzáadása")
+    add_button.pack(fill="x", pady=2)
+
+    delete_button = tk.Button(left_frame, text="Recept törlése")
+    delete_button.pack(fill="x", pady=2)
+
+    #Jobb panel
+    right_frame = tk.Frame(window)
+    right_frame.pack(side="right", fill="both", expand=True, padx=10, pady=10)
+
+    name_label = tk.Label(right_frame, text="")
+    name_label.pack(anchor="w", pady=5)
+
+    category_label = tk.Label(right_frame, text="")
+    category_label.pack(anchor="w")
+
+    tk.Label(right_frame, text="Hozzávalók:", font=("Arial", 10, "bold")).pack(anchor="w", pady=(10,0))
+    ingredients_text = tk.Text(right_frame, height=8, state="disabled")
+    ingredients_text.pack(fill="x", pady=5)
+
+    tk.Label(right_frame, text="Elkészítés:", font=("Arial", 10, "bold")).pack(anchor="w")
+    steps_text = tk.Text(right_frame, height=12, state="disabled")
+    steps_text.pack(fill="both", expand=True, pady=5)
+
+    recipe_manager.load_recipes()
+    window.mainloop()
