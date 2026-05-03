@@ -10,7 +10,7 @@ class Recipe:
             "name": self.name,
             "category": self.category,
             "ingredients": self.ingredients,
-            "steps": self.steps
+            "instructions": self.instructions
         }
     
     def from_dict(data):

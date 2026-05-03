@@ -51,8 +51,58 @@ def create_main_window():
     ingredients_text.pack(fill="x", pady=5)
 
     tk.Label(right_frame, text="Elkészítés:", font=("Arial", 10, "bold")).pack(anchor="w")
-    steps_text = tk.Text(right_frame, height=12, state="disabled")
-    steps_text.pack(fill="both", expand=True, pady=5)
+    instructions_text = tk.Text(right_frame, height=12, state="disabled")
+    instructions_text.pack(fill="both", expand=True, pady=5)
+
+
+    def refresh_list(recipe_list):
+        """Frissíti a receptlistát."""
+        recipe_listbox.delete(0, tk.END)
+        for r in recipe_list:
+            recipe_listbox.insert(tk.END, r.name)
+
+    def on_search(*args):
+        """Lista frissítése a keresőmezőbe gépeléskor."""
+        query = search_var.get()
+        if query:
+            refresh_list(recipe_manager.search_by_name(query))
+        else:
+            refresh_list(recipe_manager.recipes)
+    search_var.trace_add("write", on_search)
+
+    def on_category_change(*args):
+        """Lista frissítése a kategória változtatáskor."""
+        category = category_var.get()
+        if category == "mind":
+            refresh_list(recipe_manager.recipes)
+        else:
+            refresh_list(recipe_manager.filter_by_category(category))
+
+        category_var.trace_add("write", on_category_change)
+
+    def show_recipe(event):
+        """Megjeleníti a kiválasztott recept részleteit."""
+        selection = recipe_listbox.curselection()
+        if not selection:
+            return
+        selected_name = recipe_listbox.get(selection[0])
+        recipe = next(r for r in recipe_manager.recipes if r.name == selected_name)
+
+        name_label.config(text=recipe.name)
+        category_label.config(text=f"Kategória: {recipe.category}")
+
+        ingredients_text.config(state="normal")
+        ingredients_text.delete("1.0", tk.END)
+        ingredients_text.insert(tk.END, "\n".join(recipe.ingredients))
+        ingredients_text.config(state="disabled")
+
+        instructions_text.config(state="normal")
+        instructions_text.delete("1.0", tk.END)
+        instructions_text.insert(tk.END, "\n".join(recipe.instructions))
+        instructions_text.config(state="disabled")
+    
+    recipe_listbox.bind("<<ListboxSelect>>", show_recipe)
 
     recipe_manager.load_recipes()
+    refresh_list(recipe_manager.recipes)
     window.mainloop()
