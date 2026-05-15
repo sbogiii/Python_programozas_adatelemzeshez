@@ -1,8 +1,20 @@
 [
   {
-    "name": "Paradicsomleves",
-    "category": "leves",
-    "ingredients": ["paradicsom", "hagyma", "víz"],
-    "instructions": ["Megpucoljuk a paradicsomot.", "Megfőzzük."]
+    "name": "Tiramisu",
+    "category": "desszert",
+    "ingredients": [
+      "babapiskóta",
+      "kávé",
+      "porcukor",
+      "mascarpone",
+      "habtejszín",
+      "porcukor",
+      "rumaroma",
+      "vanília",
+      "kakaó"
+    ],
+    "instructions": [
+      "hosszú szöveg leírásssencwjecijwnicjnwiecniwjencijwencijwenijcnwijecniwjenciwjenc"
+    ]
   }
 ]

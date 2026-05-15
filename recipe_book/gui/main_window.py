@@ -1,6 +1,7 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, messagebox
 from data import recipe_manager
+from gui.add_recipe_dialog import open_add_dialog
 
 
 def create_main_window():
@@ -30,10 +31,39 @@ def create_main_window():
     recipe_listbox.pack(fill="both", expand=True, pady=5)
 
     #Gombok
-    add_button = tk.Button(left_frame, text="Recept hozzáadása")
+    def on_add_recipe():
+        """Megnyitja az új recept hozzáadásához szükséges dialog-ot."""
+        open_add_dialog(window, lambda: refresh_list(recipe_manager.recipes))
+    add_button = tk.Button(left_frame, text="Recept hozzáadása", command=on_add_recipe)
     add_button.pack(fill="x", pady=2)
 
-    delete_button = tk.Button(left_frame, text="Recept törlése")
+    def on_delete_recipe():
+        """Törli a kiválasztott receptet."""
+        selection = recipe_listbox.curselection()
+        if not selection:
+            messagebox.showwarning("Figyelmeztetés", "Nincs kiválasztott recept!")
+            return
+        
+        selected_index = selection[0]
+        selected_name = recipe_listbox.get(selected_index)
+        recipe_manager.delete_recipe(selected_name)
+        refresh_list(recipe_manager.recipes)
+
+        if recipe_manager.recipes:
+            next_index = min(selected_index, len(recipe_manager.recipes)-1)
+            recipe_listbox.selection_set(next_index)
+            recipe_listbox.event_generate("<<ListboxSelect>>")
+        else:
+            name_label.config(text="")
+            category_label.config(text="")
+            ingredients_text.config(state="normal")
+            ingredients_text.delete("1.0", tk.END)
+            ingredients_text.config(state="disabled")
+            instructions_text.config(state="normal")
+            instructions_text.delete("1.0", tk.END)
+            instructions_text.config(state="disabled")
+
+    delete_button = tk.Button(left_frame, text="Recept törlése", command=on_delete_recipe)
     delete_button.pack(fill="x", pady=2)
 
     #Jobb panel
@@ -64,10 +94,14 @@ def create_main_window():
     def on_search(*args):
         """Lista frissítése a keresőmezőbe gépeléskor."""
         query = search_var.get()
-        if query:
-            refresh_list(recipe_manager.search_by_name(query))
+        category = category_var.get()
+        if category == "mind":
+            results = recipe_manager.search_by_name(query) if query else recipe_manager.recipes
         else:
-            refresh_list(recipe_manager.recipes)
+            results = recipe_manager.filter_by_category(category)
+            if query:
+                results = [r for r in results if query.lower() in r.name.lower()]
+        refresh_list(results)
     search_var.trace_add("write", on_search)
 
     def on_category_change(*args):
@@ -78,7 +112,7 @@ def create_main_window():
         else:
             refresh_list(recipe_manager.filter_by_category(category))
 
-        category_var.trace_add("write", on_category_change)
+    category_var.trace_add("write", on_category_change)
 
     def show_recipe(event):
         """Megjeleníti a kiválasztott recept részleteit."""
