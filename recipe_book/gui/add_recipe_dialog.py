@@ -51,5 +51,5 @@ def open_add_dialog(parent, on_save):
         on_save()
         dialog.destroy()
 
-    tk.Button(dialog, text="Mentés", command=save_recipe).pack(pady=10)
-    tk.Button(dialog, text="Mégse", command=dialog.destroy).pack()
+    tk.Button(dialog, text="Mentés", command=save_recipe).pack(fill="x", padx=10, pady=10)
+    tk.Button(dialog, text="Mégse", command=dialog.destroy).pack(fill="x", padx=10)

@@ -189,26 +189,6 @@
     ]
   },
   {
-    "name": "Túrógombóc",
-    "category": "desszert",
-    "ingredients": [
-      "túró",
-      "tojás",
-      "búzadara",
-      "liszt",
-      "só",
-      "tejföl",
-      "zsemlemorzsa",
-      "vaj"
-    ],
-    "instructions": [
-      "A túrót tojással, darával és liszttel összegyúrjuk.",
-      "Gombócokat formázunk.",
-      "Sós vízben kifőzzük.",
-      "Pirított zsemlemorzsában megforgatjuk, tejföllel tálaljuk."
-    ]
-  },
-  {
     "name": "Palacsinta",
     "category": "desszert",
     "ingredients": [
