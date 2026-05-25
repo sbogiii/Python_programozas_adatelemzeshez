@@ -4,18 +4,19 @@
     "category": "leves",
     "ingredients": [
       "paradicsom",
-      "hagyma",
-      "fokhagyma",
-      "tejföl",
+      "vöröshagyma",
+      "gerezd fokhagyma",
+      "olívaolaj",
+      "alaplé",
+      "tejszín",
       "só",
-      "cukor",
-      "olívaolaj"
+      "bors"
     ],
     "instructions": [
-      "A hagymát és fokhagymát megpirítjuk olajon.",
-      "Hozzáadjuk a felkockázott paradicsomot.",
-      "20 percig főzzük, majd botmixerrel pürésítjük.",
-      "Tejföllel tálaljuk."
+      "A hagymát és fokhagymát megpirítjuk.",
+      "Hozzáadjuk a paradicsomot.",
+      "Felöntjük alaplével és puhára főzzük.",
+      "Turmixoljuk és tejszínnel tálaljuk."
     ]
   },
   {
@@ -23,99 +24,128 @@
     "category": "leves",
     "ingredients": [
       "marhahús",
-      "hagyma",
-      "paprika",
-      "paradicsom",
       "burgonya",
-      "kömény",
+      "répa",
+      "hagyma",
+      "pirospaprika",
       "só",
-      "olaj"
+      "bors"
     ],
     "instructions": [
-      "A hagymát olajon megpirítjuk.",
-      "Hozzáadjuk a felkockázott marhahúst és paprikát.",
-      "Felöntjük vízzel és egy órát főzzük.",
-      "Hozzáadjuk a burgonyát és még 20 percig főzzük."
+      "A hagymát megdinszteljük.",
+      "Hozzáadjuk a húst és lepirítjuk.",
+      "Felöntjük vízzel.",
+      "Beletesszük a zöldségeket és puhára főzzük."
     ]
   },
   {
-    "name": "Gombaleves",
+    "name": "Húsleves",
     "category": "leves",
     "ingredients": [
-      "gomba",
+      "csirke",
+      "répa",
+      "zeller",
       "hagyma",
-      "tejföl",
-      "petrezselyem",
-      "liszt",
+      "cérnametélt",
       "só",
-      "bors",
-      "vaj"
+      "bors"
     ],
     "instructions": [
-      "A hagymát vajon megpároljuk.",
-      "Hozzáadjuk a szeletelt gombát és 10 percig pároljuk.",
-      "Liszttel besűrítjük, felöntjük vízzel.",
-      "Tejföllel és petrezselyemmel tálaljuk."
+      "A húst hideg vízben feltesszük főni.",
+      "Hozzáadjuk a zöldségeket.",
+      "Lassú tűzön több órán át főzzük.",
+      "Tésztával tálaljuk."
     ]
   },
   {
-    "name": "Rántott csirke",
+    "name": "Brokkolikrémleves",
+    "category": "leves",
+    "ingredients": [
+      "brokkoli",
+      "burgonya",
+      "hagyma",
+      "tejszín",
+      "vaj",
+      "só",
+      "bors"
+    ],
+    "instructions": [
+      "A hagymát vajon megpirítjuk.",
+      "Hozzáadjuk a brokkolit és burgonyát.",
+      "Puhára főzzük.",
+      "Turmixoljuk és tejszínnel krémesítjük."
+    ]
+  },
+  {
+    "name": "Zöldborsóleves",
+    "category": "leves",
+    "ingredients": [
+      "zöldborsó",
+      "répa",
+      "petrezselyem",
+      "liszt",
+      "vaj",
+      "só"
+    ],
+    "instructions": [
+      "A répát megpároljuk.",
+      "Hozzáadjuk a borsót.",
+      "Felöntjük vízzel.",
+      "Rántással besűrítjük."
+    ]
+  },
+  {
+    "name": "Rántott csirkemell",
     "category": "főétel",
     "ingredients": [
       "csirkemell",
+      "liszt",
       "tojás",
       "zsemlemorzsa",
-      "liszt",
-      "só",
-      "bors",
-      "olaj"
+      "olaj",
+      "só"
     ],
     "instructions": [
-      "A csirkemellet vékonyra klopfoljuk.",
-      "Sózzuk, borsozzuk.",
-      "Lisztbe, tojásba, majd zsemlemorzsába forgatjuk.",
-      "Bő olajban aranybarnára sütjük."
+      "A húst felszeleteljük.",
+      "Panírozzuk.",
+      "Forró olajban kisütjük.",
+      "Körettel tálaljuk."
     ]
   },
   {
-    "name": "Töltött paprika",
+    "name": "Rakott krumpli",
     "category": "főétel",
     "ingredients": [
-      "paprika",
-      "darált hús",
-      "rizs",
-      "hagyma",
-      "paradicsom",
+      "burgonya",
+      "tojás",
+      "kolbász",
       "tejföl",
-      "só",
-      "bors"
+      "vaj",
+      "só"
     ],
     "instructions": [
-      "A rizst megfőzzük.",
-      "A darált húst hagymával, rizzsel összekeverjük.",
-      "A paprikákat megtöltjük a húsos töltelékkel.",
-      "Paradicsomos mártásban puhára főzzük, tejföllel tálaljuk."
+      "A burgonyát és tojást megfőzzük.",
+      "Rétegezzük a hozzávalókat.",
+      "Tejföllel megkenjük.",
+      "Sütőben megsütjük."
     ]
   },
   {
-    "name": "Spaghetti bolognese",
+    "name": "Csirkepaprikás",
     "category": "főétel",
     "ingredients": [
-      "spaghetti",
-      "darált marhahús",
-      "paradicsom",
+      "csirkecomb",
       "hagyma",
-      "fokhagyma",
-      "sárgarépa",
-      "olívaolaj",
-      "só",
-      "bors"
+      "tejföl",
+      "pirospaprika",
+      "liszt",
+      "só"
     ],
     "instructions": [
-      "A hagymát és fokhagymát olajon megpirítjuk.",
-      "Hozzáadjuk a darált húst és megsütjük.",
-      "Hozzáadjuk a paradicsomot és sárgarépát, 30 percig főzzük.",
-      "Megfőtt spagettivel tálaljuk."
+      "A hagymát megdinszteljük.",
+      "Hozzáadjuk a csirkét.",
+      "Puhára pároljuk.",
+      "Tejfölös habarással sűrítjük."
     ]
   },
   {
@@ -125,67 +155,236 @@
       "paprika",
       "paradicsom",
       "hagyma",
-      "tojás",
       "kolbász",
-      "só",
+      "tojás",
       "olaj"
     ],
     "instructions": [
-      "A hagymát olajon megpirítjuk.",
-      "Hozzáadjuk a felszeletelt kolbászt és paprikát.",
-      "Hozzáadjuk a paradicsomot és puhára pároljuk.",
-      "Végül beleütjük a tojásokat és összekeverjük."
+      "A hagymát megpirítjuk.",
+      "Hozzáadjuk a paprikát és paradicsomot.",
+      "Kolbásszal összefőzzük.",
+      "Tojással befejezzük."
     ]
   },
   {
-    "name": "Rakott krumpli",
+    "name": "Sertéspörkölt",
     "category": "főétel",
     "ingredients": [
-      "burgonya",
-      "tojás",
-      "tejföl",
-      "kolbász",
+      "sertéshús",
+      "hagyma",
+      "pirospaprika",
+      "zsír",
       "só",
-      "vaj"
+      "bors"
     ],
     "instructions": [
-      "A burgonyát és tojásokat megfőzzük.",
-      "Felszeleteljük a burgonyát, tojást és kolbászt.",
-      "Rétegesen egy tepsibe rakjuk, tejföllel meglocsoljuk.",
-      "180 fokon 30 percig sütjük."
+      "A hagymát zsíron dinszteljük.",
+      "Hozzáadjuk a húst.",
+      "Pirospaprikával fűszerezzük.",
+      "Lassan puhára főzzük."
     ]
   },
   {
-    "name": "Sült burgonya",
+    "name": "Töltött paprika",
+    "category": "főétel",
+    "ingredients": [
+      "paprika",
+      "darált hús",
+      "rizs",
+      "paradicsomszósz",
+      "hagyma",
+      "só"
+    ],
+    "instructions": [
+      "A húst összekeverjük a rizzsel.",
+      "Megtöltjük a paprikákat.",
+      "Paradicsomszószban főzzük.",
+      "Friss kenyérrel tálaljuk."
+    ]
+  },
+  {
+    "name": "Milánói makaróni",
+    "category": "főétel",
+    "ingredients": [
+      "makaróni",
+      "darált hús",
+      "gomba",
+      "paradicsomszósz",
+      "sajt"
+    ],
+    "instructions": [
+      "A tésztát kifőzzük.",
+      "A húst és gombát megpirítjuk.",
+      "Szósszal összefőzzük.",
+      "Sajttal tálaljuk."
+    ]
+  },
+  {
+    "name": "Tojásos nokedli",
+    "category": "főétel",
+    "ingredients": [
+      "liszt",
+      "tojás",
+      "víz",
+      "vaj",
+      "só"
+    ],
+    "instructions": [
+      "A nokedlit elkészítjük.",
+      "Kifőzzük.",
+      "Tojással összesütjük.",
+      "Salátával tálaljuk."
+    ]
+  },
+  {
+    "name": "Chilis bab",
+    "category": "főétel",
+    "ingredients": [
+      "darált hús",
+      "bab",
+      "paradicsom",
+      "hagyma",
+      "chili",
+      "kukorica"
+    ],
+    "instructions": [
+      "A hagymát megpirítjuk.",
+      "Hozzáadjuk a húst.",
+      "Beletesszük a babot.",
+      "Lassan összefőzzük."
+    ]
+  },
+  {
+    "name": "Gyros tál",
+    "category": "főétel",
+    "ingredients": [
+      "csirkemell",
+      "pitakenyér",
+      "uborka",
+      "paradicsom",
+      "tzatziki",
+      "hasábburgonya"
+    ],
+    "instructions": [
+      "A csirkét fűszeresen megsütjük.",
+      "A zöldségeket feldaraboljuk.",
+      "A pitát felmelegítjük.",
+      "Tzatzikivel tálaljuk."
+    ]
+  },
+  {
+    "name": "Párolt rizs",
+    "category": "köret",
+    "ingredients": [
+      "rizs",
+      "víz",
+      "olaj",
+      "só"
+    ],
+    "instructions": [
+      "A rizst megmossuk.",
+      "Olajon átforgatjuk.",
+      "Felöntjük vízzel.",
+      "Fedő alatt puhára főzzük."
+    ]
+  },
+  {
+    "name": "Petrezselymes burgonya",
     "category": "köret",
     "ingredients": [
       "burgonya",
-      "só",
-      "olaj",
-      "rozmaring",
-      "fokhagyma"
+      "vaj",
+      "petrezselyem",
+      "só"
     ],
     "instructions": [
-      "A burgonyát felkockázzuk.",
-      "Olajjal, sóval, rozmaringgal és fokhagymával összekeverjük.",
-      "200 fokon 35 percig sütjük."
+      "A burgonyát megfőzzük.",
+      "Vajon átforgatjuk.",
+      "Petrezselyemmel megszórjuk.",
+      "Melegen tálaljuk."
+    ]
+  },
+  {
+    "name": "Hasábburgonya",
+    "category": "köret",
+    "ingredients": [
+      "burgonya",
+      "olaj",
+      "só"
+    ],
+    "instructions": [
+      "A burgonyát hasábokra vágjuk.",
+      "Olajban aranybarnára sütjük.",
+      "Lecsepegtetjük.",
+      "Sóval megszórjuk."
     ]
   },
   {
     "name": "Párolt zöldség",
     "category": "köret",
     "ingredients": [
+      "répa",
       "brokkoli",
-      "sárgarépa",
-      "cukkini",
-      "só",
+      "karfiol",
       "vaj",
-      "bors"
+      "só"
     ],
     "instructions": [
       "A zöldségeket feldaraboljuk.",
-      "Sós vízben 5 percig blansírozzuk.",
-      "Vajjal meglocsoljuk, sózzuk, borsozzuk."
+      "Párolóedényben megpároljuk.",
+      "Vajjal átforgatjuk.",
+      "Ízesítve tálaljuk."
+    ]
+  },
+  {
+    "name": "Kuszkusz",
+    "category": "köret",
+    "ingredients": [
+      "kuszkusz",
+      "víz",
+      "olívaolaj",
+      "só"
+    ],
+    "instructions": [
+      "A kuszkuszt tálba tesszük.",
+      "Leöntjük forró vízzel.",
+      "Lefedve pihentetjük.",
+      "Villával fellazítjuk."
+    ]
+  },
+  {
+    "name": "Brownie",
+    "category": "desszert",
+    "ingredients": [
+      "étcsokoládé",
+      "vaj",
+      "cukor",
+      "tojás",
+      "liszt"
+    ],
+    "instructions": [
+      "A csokoládét megolvasztjuk.",
+      "Összekeverjük a hozzávalókat.",
+      "Tepsibe öntjük.",
+      "Sütőben megsütjük."
+    ]
+  },
+  {
+    "name": "Almás pite",
+    "category": "desszert",
+    "ingredients": [
+      "alma",
+      "liszt",
+      "vaj",
+      "cukor",
+      "fahéj",
+      "tojás"
+    ],
+    "instructions": [
+      "A tésztát elkészítjük.",
+      "Az almát lereszeljük.",
+      "Megtöltjük a tésztát.",
+      "Aranybarnára sütjük."
     ]
   },
   {
@@ -193,52 +392,139 @@
     "category": "desszert",
     "ingredients": [
       "liszt",
-      "tojás",
       "tej",
-      "só",
+      "tojás",
+      "cukor",
       "olaj",
       "lekvár"
     ],
     "instructions": [
-      "A lisztet, tojást, tejet és sót összekeverjük.",
-      "Egy kevés olajat hevítünk a serpenyőben.",
-      "Vékony palacsintákat sütünk.",
-      "Lekvárral megtöltjük és feltekerjük."
+      "A tésztát kikeverjük.",
+      "Palacsintákat sütünk.",
+      "Lekvárral megkenjük.",
+      "Felcsavarva tálaljuk."
     ]
   },
   {
-    "name": "Almás rétes",
+    "name": "Tiramisu",
     "category": "desszert",
     "ingredients": [
-      "réteslap",
-      "alma",
-      "cukor",
-      "fahéj",
-      "zsemlemorzsa",
-      "vaj"
-    ],
-    "instructions": [
-      "Az almát meghámozzuk és lereszeljük.",
-      "Cukorral és fahéjjal összekeverjük.",
-      "A réteslapot vajjal megkenjük, zsemlemorzsával megszórjuk.",
-      "Az almás tölteléket rátesszük, feltekerjük és 180 fokon 30 percig sütjük."
-    ]
-  },
-  {
-    "name": "Csokoládémousse",
-    "category": "desszert",
-    "ingredients": [
-      "étcsokoládé",
+      "mascarpone",
+      "babapiskóta",
+      "kávé",
       "tojás",
-      "tejszín",
       "cukor",
-      "vaj"
+      "kakaópor"
     ],
     "instructions": [
-      "A csokoládét vízgőz felett megolvasztjuk vajjal.",
-      "A tojássárgáját cukorral habosra keverjük.",
-      "A tejszínt felverrjük.",
-      "Mindent óvatosan összekeverünk és hűtőbe tesszük 2 órára."
+      "A krémet elkészítjük.",
+      "A piskótát kávéba mártjuk.",
+      "Rétegezzük.",
+      "Kakaóval megszórjuk."
+    ]
+  },
+  {
+    "name": "Muffin",
+    "category": "desszert",
+    "ingredients": [
+      "liszt",
+      "tojás",
+      "cukor",
+      "tej",
+      "vaj",
+      "sütőpor"
+    ],
+    "instructions": [
+      "A hozzávalókat összekeverjük.",
+      "Formába adagoljuk.",
+      "fokon sütjük.",
+      "Kihűtjük."
+    ]
+  },
+  {
+    "name": "Sajttorta",
+    "category": "desszert",
+    "ingredients": [
+      "krémsajt",
+      "keksz",
+      "vaj",
+      "cukor",
+      "tojás"
+    ],
+    "instructions": [
+      "A kekszalapot elkészítjük.",
+      "A krémet ráöntjük.",
+      "Sütőben megsütjük.",
+      "Lehűtjük."
+    ]
+  },
+  {
+    "name": "Kókuszgolyó",
+    "category": "desszert",
+    "ingredients": [
+      "darált keksz",
+      "kakaópor",
+      "vaj",
+      "tej",
+      "kókuszreszelék"
+    ],
+    "instructions": [
+      "Az alapanyagokat összegyúrjuk.",
+      "Golyókat formázunk.",
+      "Kókuszba forgatjuk.",
+      "Hűtve tálaljuk."
+    ]
+  },
+  {
+    "name": "Mákos guba",
+    "category": "desszert",
+    "ingredients": [
+      "kifli",
+      "mák",
+      "tej",
+      "cukor",
+      "vanília"
+    ],
+    "instructions": [
+      "A kiflit felkarikázzuk.",
+      "Vaníliás tejjel leöntjük.",
+      "Mákos cukorral megszórjuk.",
+      "Melegen tálaljuk."
+    ]
+  },
+  {
+    "name": "Somlói galuska",
+    "category": "desszert",
+    "ingredients": [
+      "piskóta",
+      "dió",
+      "mazsola",
+      "csokoládészósz",
+      "tejszínhab"
+    ],
+    "instructions": [
+      "A piskótát feldaraboljuk.",
+      "Rétegezzük a hozzávalókat.",
+      "Csokoládéval leöntjük.",
+      "Tejszínhabbal tálaljuk."
+    ]
+  },
+  {
+    "name": "Banánkenyér",
+    "category": "desszert",
+    "ingredients": [
+      "banán",
+      "liszt",
+      "tojás",
+      "vaj",
+      "cukor",
+      "sütőpor"
+    ],
+    "instructions": [
+      "A banánt összetörjük.",
+      "A hozzávalókat összekeverjük.",
+      "Formába öntjük.",
+      "Sütőben megsütjük."
     ]
   },
   {
@@ -246,86 +532,374 @@
     "category": "ital",
     "ingredients": [
       "citrom",
-      "cukor",
       "víz",
-      "jégkocka",
+      "cukor",
+      "jég",
       "menta"
     ],
     "instructions": [
-      "A citromokat kicsavarjuk.",
-      "A cukrot kevés meleg vízben feloldjuk.",
-      "A citromlevet a cukros vízzel és hideg vízzel összekeverjük.",
-      "Jégkockával és mentával tálaljuk."
+      "A citromot kifacsarjuk.",
+      "Elkeverjük cukorral.",
+      "Felöntjük vízzel.",
+      "Jéggel tálaljuk."
     ]
   },
   {
-    "name": "Forró csokoládé",
+    "name": "Epres turmix",
+    "category": "ital",
+    "ingredients": [
+      "eper",
+      "tej",
+      "méz",
+      "joghurt",
+      "jég"
+    ],
+    "instructions": [
+      "Az epret megtisztítjuk.",
+      "Minden hozzávalót turmixgépbe teszünk.",
+      "Krémesre turmixoljuk.",
+      "Hidegen tálaljuk."
+    ]
+  },
+  {
+    "name": "Jeges tea",
+    "category": "ital",
+    "ingredients": [
+      "fekete tea",
+      "citrom",
+      "cukor",
+      "víz",
+      "jég"
+    ],
+    "instructions": [
+      "A teát lefőzzük.",
+      "Cukorral ízesítjük.",
+      "Lehűtjük.",
+      "Jéggel és citrommal tálaljuk."
+    ]
+  },
+  {
+    "name": "Forró csoki",
     "category": "ital",
     "ingredients": [
       "tej",
-      "kakaópor",
+      "étcsokoládé",
       "cukor",
-      "tejszín"
+      "tejszínhab"
     ],
     "instructions": [
       "A tejet felmelegítjük.",
-      "A kakaóport és cukrot elkeverjük egy kis tejben.",
-      "Hozzáadjuk a forró tejhez és összekeverjük.",
+      "Beleolvasztjuk a csokoládét.",
+      "Elkeverjük.",
       "Tejszínhabbal tálaljuk."
     ]
   },
   {
-    "name": "Gyümölcssmoothie",
+    "name": "Narancslé",
     "category": "ital",
     "ingredients": [
-      "banán",
-      "eper",
-      "joghurt",
-      "méz",
+      "narancs",
+      "jég",
+      "méz"
+    ],
+    "instructions": [
+      "A narancsokat kifacsarjuk.",
+      "Mézzel ízesítjük.",
+      "Jéggel lehűtjük.",
+      "Frissen fogyasztjuk."
+    ]
+  },
+  {
+    "name": "Hamburger",
+    "category": "egyéb",
+    "ingredients": [
+      "hamburgerzsemle",
+      "darált marhahús",
+      "sajt",
+      "saláta",
+      "paradicsom",
+      "uborka"
+    ],
+    "instructions": [
+      "A húspogácsát megsütjük.",
+      "A zsemlét megpirítjuk.",
+      "Összeállítjuk a hamburgert.",
+      "Szószokkal tálaljuk."
+    ]
+  },
+  {
+    "name": "Hot dog",
+    "category": "egyéb",
+    "ingredients": [
+      "hot dog kifli",
+      "virsli",
+      "mustár",
+      "ketchup",
+      "pirított hagyma"
+    ],
+    "instructions": [
+      "A virslit megfőzzük.",
+      "A kiflit felmelegítjük.",
+      "Beletesszük a virslit.",
+      "Szószokkal tálaljuk."
+    ]
+  },
+  {
+    "name": "Pizza Margherita",
+    "category": "egyéb",
+    "ingredients": [
+      "pizza tészta",
+      "paradicsomszósz",
+      "mozzarella",
+      "bazsalikom"
+    ],
+    "instructions": [
+      "A tésztát kinyújtjuk.",
+      "Megkenjük szósszal.",
+      "Rátesszük a sajtot.",
+      "Forró sütőben megsütjük."
+    ]
+  },
+  {
+    "name": "Hawaii pizza",
+    "category": "egyéb",
+    "ingredients": [
+      "pizza tészta",
+      "sonka",
+      "ananász",
+      "sajt",
+      "paradicsomszósz"
+    ],
+    "instructions": [
+      "A tésztát előkészítjük.",
+      "Megkenjük szósszal.",
+      "Rátesszük a feltéteket.",
+      "Ropogósra sütjük."
+    ]
+  },
+  {
+    "name": "Taco",
+    "category": "egyéb",
+    "ingredients": [
+      "taco lap",
+      "darált hús",
+      "saláta",
+      "sajt",
+      "paradicsom"
+    ],
+    "instructions": [
+      "A húst megsütjük.",
+      "A taco lapokat felmelegítjük.",
+      "Megtöltjük a hozzávalókkal.",
+      "Frissen tálaljuk."
+    ]
+  },
+  {
+    "name": "Burrito",
+    "category": "egyéb",
+    "ingredients": [
+      "tortilla",
+      "rizs",
+      "bab",
+      "csirkehús",
+      "sajt",
+      "salsa"
+    ],
+    "instructions": [
+      "A tölteléket elkészítjük.",
+      "A tortillába halmozzuk.",
+      "Felcsavarjuk.",
+      "Melegen tálaljuk."
+    ]
+  },
+  {
+    "name": "Sushi tekercs",
+    "category": "egyéb",
+    "ingredients": [
+      "sushi rizs",
+      "nori lap",
+      "uborka",
+      "lazac",
+      "avokádó"
+    ],
+    "instructions": [
+      "A rizst megfőzzük.",
+      "A nori lapra terítjük.",
+      "Megtöltjük.",
+      "Felcsavarjuk és szeleteljük."
+    ]
+  },
+  {
+    "name": "Caesar saláta",
+    "category": "egyéb",
+    "ingredients": [
+      "római saláta",
+      "csirkemell",
+      "parmezán",
+      "krutonn",
+      "caesar öntet"
+    ],
+    "instructions": [
+      "A csirkét megsütjük.",
+      "A salátát feldaraboljuk.",
+      "Összekeverjük az öntettel.",
+      "Parmezánnal tálaljuk."
+    ]
+  },
+  {
+    "name": "Görög saláta",
+    "category": "egyéb",
+    "ingredients": [
+      "uborka",
+      "paradicsom",
+      "lilahagyma",
+      "feta",
+      "olívabogyó"
+    ],
+    "instructions": [
+      "A zöldségeket felkockázzuk.",
+      "Összekeverjük.",
+      "Fetával megszórjuk.",
+      "Olívaolajjal meglocsoljuk."
+    ]
+  },
+  {
+    "name": "Tonhalsaláta",
+    "category": "egyéb",
+    "ingredients": [
+      "tonhal",
+      "saláta",
+      "kukorica",
+      "paradicsom",
+      "uborka"
+    ],
+    "instructions": [
+      "A zöldségeket feldaraboljuk.",
+      "Hozzáadjuk a tonhalat.",
+      "Összekeverjük.",
+      "Hidegen tálaljuk."
+    ]
+  },
+  {
+    "name": "Kakaós csiga",
+    "category": "egyéb",
+    "ingredients": [
+      "liszt",
+      "élesztő",
+      "tej",
+      "vaj",
+      "cukor",
+      "kakaópor"
+    ],
+    "instructions": [
+      "A tésztát megkelesztjük.",
+      "Kakaós töltelékkel megkenjük.",
+      "Felcsavarjuk.",
+      "Sütőben megsütjük."
+    ]
+  },
+  {
+    "name": "Fahéjas csiga",
+    "category": "egyéb",
+    "ingredients": [
+      "liszt",
+      "élesztő",
+      "vaj",
+      "cukor",
+      "fahéj",
       "tej"
     ],
     "instructions": [
-      "A gyümölcsöket megmossuk és feldaraboljuk.",
-      "Joghurttal, tejjel és mézzel turmixba tesszük.",
-      "Simára turmixoljuk.",
-      "Azonnal tálaljuk."
+      "A tésztát elkészítjük.",
+      "Fahéjas töltelékkel megkenjük.",
+      "Felcsavarjuk.",
+      "Aranybarnára sütjük."
     ]
   },
   {
-    "name": "Bruschetta",
+    "name": "Sajtos omlett",
+    "category": "egyéb",
+    "ingredients": [
+      "tojás",
+      "sajt",
+      "vaj",
+      "só",
+      "bors"
+    ],
+    "instructions": [
+      "A tojást felverjük.",
+      "Serpenyőben megsütjük.",
+      "Sajttal megtöltjük.",
+      "Félbehajtva tálaljuk."
+    ]
+  },
+  {
+    "name": "Bundás kenyér",
     "category": "egyéb",
     "ingredients": [
       "kenyér",
-      "paradicsom",
-      "fokhagyma",
-      "bazsalikom",
-      "olívaolaj",
-      "só"
+      "tojás",
+      "tej",
+      "só",
+      "olaj"
     ],
     "instructions": [
-      "A kenyérszeleteket megpirítjuk.",
-      "Fokhagymával bedörzsöljük.",
-      "A paradicsomot felkockázzuk és bazsalikommal, olívaolajjal összekeverjük.",
-      "A kenyérre halmozzuk és tálaljuk."
+      "A tojást tejjel felverjük.",
+      "A kenyeret beleforgatjuk.",
+      "Olajban kisütjük.",
+      "Melegen tálaljuk."
     ]
   },
   {
-    "name": "Humusz",
+    "name": "Zabkása",
     "category": "egyéb",
     "ingredients": [
-      "csicseriborsó",
-      "tahini",
-      "citrom",
-      "fokhagyma",
-      "olívaolaj",
-      "só",
-      "kömény"
+      "zabpehely",
+      "tej",
+      "méz",
+      "banán",
+      "fahéj"
     ],
     "instructions": [
-      "A csicseriborsót lecsepegtetjük.",
-      "Mindenst turmixba teszünk.",
-      "Simára turmixoljuk.",
-      "Olívaolajjal meglocsolva tálaljuk."
+      "A zabpelyhet tejben megfőzzük.",
+      "Mézzel édesítjük.",
+      "Banánnal megszórjuk.",
+      "Melegen fogyasztjuk."
+    ]
+  },
+  {
+    "name": "Rizottó",
+    "category": "egyéb",
+    "ingredients": [
+      "rizottó rizs",
+      "parmezán",
+      "vaj",
+      "fehérbor",
+      "hagyma",
+      "alaplé"
+    ],
+    "instructions": [
+      "A hagymát megpirítjuk.",
+      "Hozzáadjuk a rizst.",
+      "Fokozatosan adagoljuk az alaplevet.",
+      "Krémesre főzzük."
+    ]
+  },
+  {
+    "name": "Lasagne",
+    "category": "egyéb",
+    "ingredients": [
+      "lasagne lap",
+      "darált hús",
+      "paradicsomszósz",
+      "besamel",
+      "sajt"
+    ],
+    "instructions": [
+      "A húst megpirítjuk.",
+      "Rétegezzük a lapokkal.",
+      "Besamellel leöntjük.",
+      "Sütőben megsütjük."
     ]
   }
 ]

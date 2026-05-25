@@ -32,6 +32,8 @@ def create_main_window():
     tk.Label(left_frame, text="Összetevők:", font=("Arial", 10, "bold")).pack(anchor="w")
     ingredients_filter = tk.Listbox(left_frame, selectmode="multiple", height=5)
     ingredients_filter.pack(fill="x", pady=5)
+    selected_label = tk.Label(left_frame, text="", wraplength=200, justify="left", font=("Arial", 9, "italic"))
+    selected_label.pack(anchor="w")
 
     #Receptlista
     recipe_listbox = tk.Listbox(left_frame)
@@ -81,6 +83,7 @@ def create_main_window():
         category_var.set("mind")
         ingredients_filter.selection_clear(0, tk.END)
         refresh_list(recipe_manager.recipes)
+        selected_label.config(text="")
     
     clear_button = tk.Button(left_frame, text="Szűrők törlése", command=clear_filters)
     clear_button.pack(fill="x", pady=2)
@@ -170,6 +173,10 @@ def create_main_window():
         if new_selection:
             current_ingredient_filter = new_selection
         apply_filters()
+        if current_ingredient_filter:
+            selected_label.config(text="Kiválasztva: "+", ".join(current_ingredient_filter))
+        else:
+            selected_label.config(text="")
 
     search_var.trace_add("write", apply_filters)
     category_var.trace_add("write", apply_filters)
