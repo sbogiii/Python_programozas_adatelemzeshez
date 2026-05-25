@@ -48,7 +48,7 @@ def filter_by_category(category):
     return [r for r in recipes if r.category.lower() == category.lower()]
 
 def filter_by_ingredient(ingredients):
-    """Összetevők szerint keres a receptek között, majd mindet kilistázza, amelyik tartalmazza az összes összetevőt."""
+    """Összetevők szerint keres a receptek között, majd mindet kilistázza, amelyik tartalmazza az összes kiválasztott összetevőt."""
     result = []
     for r in recipes:
         if all(ing.lower() in [i.lower() for i in r.ingredients] for ing in ingredients):
