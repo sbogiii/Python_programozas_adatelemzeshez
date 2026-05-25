@@ -10,30 +10,30 @@ def open_add_dialog(parent, on_save):
     dialog.geometry("500x600")
     dialog.grab_set()
 
-    #Név
+    #Név megadása
     tk.Label(dialog, text="Recept neve:").pack(anchor="w", padx=10, pady=(10,0))
     name_entry=tk.Entry(dialog)
     name_entry.pack(fill="x", padx=10)
 
-    #Kategória
+    #Kategória kiválasztása
     tk.Label(dialog, text="Kategória").pack(anchor="w", padx=10, pady=(10,0))
     categories = ["leves", "főétel", "köret", "desszert", "ital", "egyéb"]
     category_var = tk.StringVar(value="leves")
     category_menu = ttk.Combobox(dialog, textvariable=category_var, values=categories, state="readonly")
     category_menu.pack(fill="x", padx=10)
 
-    #Hozzávalók
+    #Hozzávalók felsorolása
     tk.Label(dialog, text="Hozzávalók:").pack(anchor="w", padx=10, pady=(10,0))
     ingredients_text = tk.Text(dialog, height=6)
     ingredients_text.pack(fill="x", padx=10)
 
-    #Elkészítés
+    #Elkészítési mód leírása
     tk.Label(dialog, text="Elkészítés:").pack(anchor="w", padx=10, pady=(10,0))
     instructions_text = tk.Text(dialog, height=8)
     instructions_text.pack(fill="x", padx=10)
 
     def save_recipe():
-        """Elmenti az új receptet, ha minden mező ki van töltve, és a recept még nem létezik."""
+        """Elmenti az új receptet, ha a név ki van töltve, és a recept még nem létezik."""
         name = name_entry.get().strip()
         category = category_var.get()
         ingredients =  [line.strip() for line in ingredients_text.get("1.0", tk.END).splitlines() if line.strip()]

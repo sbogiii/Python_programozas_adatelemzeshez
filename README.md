@@ -14,7 +14,7 @@ A program nem tartalmaz külső függőségeket.
 
 * Egy választott recept megtekintése: A bal oldali receptlistából egy recept nevére kattintva megjelennek a hozzá tartozó részletek a jobb oldalon.
 
-* Recept hozzáadása: A 'Recept hozzáadása' gombra kattintva megnyílik egy új ablak, amiben megadható a recept neve, kategóriája, hozzávalói és elkészítési módja. A recept nevének kitöltése kötelező. A hozzávalókat Enter-rel kell elválasztani egymástól. A 'Mentés' gombra kattintva a recept megjelenik a bal oldali recept listában. A 'Mégse' gombra kattintva a változtatások elvesznek.
+* Recept hozzáadása: A 'Recept hozzáadása' gombra kattintva megnyílik egy új ablak, amiben megadható a recept neve, kategóriája, hozzávalói és elkészítési módja. A recept nevének kitöltése kötelező. A hozzávalókat Enter-rel kell elválasztani egymástól. A 'Mentés' gombra kattintva a recept megjelenik a bal oldali recept listában. A 'Mégse' gombra kattintva a változtatások elvesznek. Olyan névvel nem hozható létre egy új recept, ami már létezik a listában.
 
 * Recept törlése: A 'Recept törlése' gombra kattinva törlésre kerül a bal oldali receptlistából kiválasztott elem. Amennyiben nincs kiválasztott recept, erre egy felugró ablak figyelmeztet.
 
